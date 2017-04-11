@@ -1,0 +1,227 @@
+#bootstrap-overrides {
+    font-family: "PT Sans";
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 400;
+    font-style: normal;
+    color: #6d7a83;
+    font-size: 18px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.navbar.navbar-default {
+    top: 50px;
+
+    border-color: #e7e7e7;
+    margin-bottom: 0;
+
+
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+
+}
+
+
+
+#content-h .nav a {
+  color: #f2f2f2;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 10px 18px;
+  margin-top: 10px;
+}
+
+
+#content-h .navbar .nav > .active > a {
+background-color: rgba(0,0,0,0.3);
+
+}
+
+
+
+
+.active {
+    -moz-border-radius: 15px;
+ -webkit-border-radius: 15px;
+ border: 0px solid #009900;
+ padding: 0px;
+
+
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    margin-bottom: 0;
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 5px;
+}
+
+
+.container.full {
+    position: relative;
+    top: -30px;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#content-h {
+
+    height: 500px;
+    background: url(https://pp.vk.me/c626216/v626216521/44b96/zuX8M6BIKzo.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+.heading1 {
+    overflow: hidden;
+    text-align: center;
+    margin: 75px 0 35px 0;
+}
+
+
+.heading1:before,
+.heading1:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.heading1:before {
+    right: 0.5em;
+    margin-left: -50%;
+
+}
+.heading1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+#content-h>h1 {
+    font-family: 'PT Sans', sans-serif;
+
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+    text-transform: uppercase;
+
+}
+
+#register{
+    margin-top: 2em;
+    background-color: #e14;
+    font-size: 22px;
+    width: 230px;
+    padding: 15px;
+    height: 60px;
+    color: white;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 0px solid #e14;
+
+}
+
+.checkpoint{
+    margin: 80px 20px 20px 50px;
+    position: relative;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}
+
+.fa-check-circle {
+    font-size: 56px;
+    color: #e14;
+    position: relative;
+}
+
+.fa-money{
+  font-size: 56px;
+  color: #e14;
+  position: relative;
+}
+
+.fa-list{
+  font-size: 56px;
+  color: #e14;
+  position: relative;
+}
+
+.checkpointinit{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #0d1d31;
+    position: absolute;
+    top: 8px;
+    margin-left: 14px;
+}
+
+.checkpoint>ul{
+    margin-left: 0px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    padding: 0; /* Убираем поля */
+}
+
+.checkpoint li{
+
+    padding-left: 34px;
+}
+
+.heading2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  color: #0d1d31;
+
+}
+
+.checkpoints {
+  margin-bottom: 60px;
+}
+
+.prices .thumbnail {
+    border: 1px solid #545454;
+    box-shadow: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.pricedate {
+  background: #F5F5F5;
+
+}
